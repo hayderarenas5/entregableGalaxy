@@ -1,0 +1,36 @@
+.galaxyCard{
+    min-height: 100vh;
+    display: grid;
+    grid-template-rows: 1fr auto;
+    text-align: center;
+    align-items: center;
+    padding: 10px;
+    color: rgb(70, 80, 80);
+}
+.galaxyCard__title{
+    color: rgb(70, 34, 112);
+}
+.galaxyCard__container{
+    padding: 0.5rem ;
+    background-color: rgb(212, 196, 228);
+    min-width: 100px;
+    max-width: 400px;
+    justify-content: center;
+    margin: 0 auto;
+    border-radius: 1rem;
+    
+}
+.galaxyCard__phrafe{
+    margin: 30px auto;
+    max-width: 400px;
+}
+.galaxyCard__btn{
+    padding: 0.5rem;
+    border-radius: 0.5rem;
+    border: none;
+    cursor: pointer;
+    background-color: rgb(235, 144, 144);
+}
+.galaxyCard__footer{
+    color: antiquewhite;
+}
